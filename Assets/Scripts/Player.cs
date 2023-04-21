@@ -14,7 +14,7 @@ public class Player : Entity
     // Update is called once per frame
     void Update()
     {
-        input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("vertical"));
+        input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         print(input);
         if (Input.GetMouseButtonDown(0))
         {
@@ -23,6 +23,6 @@ public class Player : Entity
     }
     void FixedUpdate()
     {
-        rb.MovePosition(transform.Position + input * Time.fixedDeltaTime * speed);
+        rb.MovePosition(transform.position + input * Time.fixedDeltaTime * speed);
     }
 }

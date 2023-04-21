@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
     {
         sc = GetComponent<SphereCollider>();
         rb = GetComponent<Rigidbody>();
-        rb = useGravity = false;
+        rb.useGravity = false;
         sc.isTrigger = true;
     }
     private void FixedUpdate()
