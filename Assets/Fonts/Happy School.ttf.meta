@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e94b920a78e922b4c9ebff3c7ee18122
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Happy School
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ad119b2b6190798429c1c21fceef83ea, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
