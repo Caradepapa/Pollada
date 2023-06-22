@@ -556,7 +556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bruno Abel Benites Valencia
+  m_text: "Bruno Abel Benites Valencia \n-Nivel 2 y 4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e95e869ef60ce804682ef11418b1cea7, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1254,7 +1254,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jim Fernando Zamora Moreno
+  m_text: 'Jim Fernando Zamora Moreno
+
+    -Alpha
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e95e869ef60ce804682ef11418b1cea7, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3916,7 +3920,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jose Nicolas Reyes Felipa
+  m_text: 'Jose Nicolas Reyes Felipa
+
+    (Nivel 1 y 3, ilustraciones, logo)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e95e869ef60ce804682ef11418b1cea7, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
