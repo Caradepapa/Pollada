@@ -26,22 +26,33 @@ public class GameManager : MonoBehaviour
         }
         //    //player=FindObjectOfType<Player>();
     }
-    //private void Update()
-    //{
-    //    switch (state)
-    //    {
-    //        case GAMESTATE, STARTING:
-    //            break;
-    //        case GAMESTATE, PLAYING:
-    //            break;
-    //        case GAMESTATE, INTERMISSION:
-    //            //losePanel.SetActive(true);
-    //            state = GAMESTATE.ENDING;
-    //            break;
-    //        case GAMESTATE.ENDING:
-    //            break;
-    //    }
-    //}
+
+
+ //   private void Update()
+ //   {
+ //       switch (state)
+ //      {
+ //           case GAMESTATE.STARTING:
+ //               break;
+ //           case GAMESTATE.PLAYING:
+ //               timerHelper -= Time.deltaTime;
+ //              if (timerHelper <= 0)
+ //               {
+ //                   levelWon = true;
+ //                   ChangeState(GAMESTATE.ENDING);
+ //              }
+ //              break;
+ //          case GAMESTATE.INTERMISSION:
+ //             levelWon = false;
+ //              state = GAMESTATE.ENDING;
+ //              break;
+ //          case GAMESTATE.ENDING:
+ //               string message = (levelWon) ? "Ganamos" : "Perdimos";
+ //               print(message);
+ //               break;
+ //       }
+ //   }
+
     //public void AddScore(int score)
     //{
     //    points += score;
@@ -53,12 +64,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     //// Update is called once per frame
     //void Update()
     //{
-        
+
     //}
 }
