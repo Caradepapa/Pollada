@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Opciones
   - opciones
+  - Coin
   layers:
   - Default
   - TransparentFX

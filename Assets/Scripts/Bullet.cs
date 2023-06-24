@@ -15,6 +15,9 @@ public class Bullet : MonoBehaviour
         rb.useGravity = false;
         sc.isTrigger = true;
     }
+
+   
+
     private void FixedUpdate()
     {
         rb.velocity = Vector3.forward * 4f;
